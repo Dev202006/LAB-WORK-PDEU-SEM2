@@ -1,0 +1,8 @@
+2. accessing elements in an array: 
+3. Traversing the array
+4. Insertion: 
+	shift the rest of the elements to the right
+5. Deletion: 
+	shift the rest of the elements to the left 
+
+	
