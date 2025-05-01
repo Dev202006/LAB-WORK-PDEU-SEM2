@@ -1,0 +1,6 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:George Lewis
+TEL;TYPE=CELL:9345678901
+EMAIL:george.lewis@example.net
+END:VCARD

@@ -51,7 +51,7 @@ class xcomplex:
         return ans
     def mod(self): 
         return (self.real)**2 + (self.imaginary)**2
-    def __truediv__(self,other): 
+    def __truediv__(self,other): #for division it's always 'truediv'
         ans = xcomplex()
         a1 = self.real
         a2 = other.real

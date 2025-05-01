@@ -1,0 +1,6 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Alice Johnson
+TEL;TYPE=CELL:9876543210
+EMAIL:alice.johnson@example.com
+END:VCARD

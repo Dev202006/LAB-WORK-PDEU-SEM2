@@ -1,0 +1,6 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Linda Hall
+TEL;TYPE=CELL:9111222333
+EMAIL:linda.hall@example.com
+END:VCARD
