@@ -11,7 +11,7 @@ data = [
 with open('csv.csv','w') as f:
     lines = []
     for row in data: 
-        line = ','.join(str(element) for element in row)+'\n' 
+        line = ','.join([str(element) for element in row])+'\n' 
         lines.append(line)
     f.writelines(lines)
 
