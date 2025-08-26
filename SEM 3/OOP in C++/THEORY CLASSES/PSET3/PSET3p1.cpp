@@ -12,12 +12,14 @@ private:
     int s3;
 public:
     //constructors
-    Triangle();
-    Triangle(int a)
+    Triangle()
     {
-        s1,s2,s3 = a;
-        cout<<"Parameterized constructor 1";
+        s1 =0; 
+        s2=0;
+        s3=0; 
     }
+    Triangle(int a): s1(a),s2(a),s3(a){}
+    
     Triangle(int a1,int a2,int a3)
     {
         cout<<"Parameterized constructor 2";

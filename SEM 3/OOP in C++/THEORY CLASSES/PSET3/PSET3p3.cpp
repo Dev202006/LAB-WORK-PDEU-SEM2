@@ -16,9 +16,10 @@ class Student{
         roll = 0;
     }
     //parameterized constructor
-    Student(char *n, float m, int r)
+    Student(const char *n, float m, int r)
     {
-        name = n;
+        name = new char[strlen(n)+1];
+        strcpy(name, n);
         marks = m;
         roll = r;
     }

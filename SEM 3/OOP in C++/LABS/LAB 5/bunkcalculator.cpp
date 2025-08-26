@@ -18,6 +18,8 @@ sub(string subname,int total)
 {
     this->subname = subname; 
     total_classes = total; 
+    attended = 0; 
+    progress = 0; 
     bunkable = int(0.2*total_classes);
     cout<<"For the subject "<<subname<<" the total no. of classes is "<<total_classes<<endl<<endl; 
 }

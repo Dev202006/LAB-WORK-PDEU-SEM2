@@ -16,7 +16,6 @@ public:
 
     // Deep Copy Constructor
     Person(const Person &other) {
-        delete[] name; 
         name = new char[strlen(other.name) + 1];
         strcpy(name, other.name);
         cout << "Copy Constructor (Deep Copy): Copied person with name = " << name << endl;
@@ -26,6 +25,7 @@ public:
     ~Person() {
         cout << "Destructor: Deleting person with name = " << name << endl;
         delete[] name;
+    
     }
 
     // Function to update name
@@ -46,7 +46,7 @@ int main() {
     Person person1("Alice");
 
     cout << "\nCreating person2 as a copy of person1...\n";
-    Person person2 = person1; // Triggers deep copy constructor
+    Person person2 = person1; // Triggers deep copy constructor because we only created that. 
 
     cout << "\nChanging name of person2 to Bob...\n";
     person2.updateName("Bob");
