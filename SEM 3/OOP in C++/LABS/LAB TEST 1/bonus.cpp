@@ -2,7 +2,6 @@
 
 using namespace std;
 class roman;
-//friend concept not used and hence members kept public and accessible.
 class number{
 
     int i;
