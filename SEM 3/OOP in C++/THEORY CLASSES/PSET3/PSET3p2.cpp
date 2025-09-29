@@ -79,5 +79,7 @@ int main()
     cout<<endl<<"Is d2 valid: "<<result; 
     string result2 = d1.valid(); 
     cout<<endl<<"Is d1 valid: "<<result2; 
+    Date today(17,9,25);
+    today.get(); 
     
 }

@@ -1,0 +1,6 @@
+cursor
+bolt 
+for frontend
+
+supabase
+firebase 

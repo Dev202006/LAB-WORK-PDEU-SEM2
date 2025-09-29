@@ -1,0 +1,6 @@
+GRANT PRIVILEGE/ALL PRIVILEGES ON TABLE TO 'USER@HOST'; 
+FLUSH PRIVILEGES; 
+FLUSH PRIVILEGES ON TABLE FROM 'USER@HOST'
+
+
+//LEARN DDL (Data Definition Language), DML (Data Manipulation Language), DCL (Data Control Language)

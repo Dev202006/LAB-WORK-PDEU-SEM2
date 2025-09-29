@@ -46,7 +46,7 @@ int main() {
     Person person1("Alice");
 
     cout << "\nCreating person2 as a copy of person1...\n";
-    Person person2 = person1; // Triggers deep copy constructor because we only created that. 
+    Person person2 = person1; // also: Person person2(person1); // Triggers deep copy constructor because we only created that. 
 
     cout << "\nChanging name of person2 to Bob...\n";
     person2.updateName("Bob");

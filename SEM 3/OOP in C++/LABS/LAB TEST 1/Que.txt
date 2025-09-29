@@ -1,0 +1,7 @@
+provide a read world whee funtion overriding would be beneficial
+
+how do you call the super class method from the overrriden method in the subclass
+
+what if you call a overriden func using base class obj , which is not a reference or pointer 
+
+prove that an overriding method on a derived class cannot have more restrictive acces modifier than the method in base class
