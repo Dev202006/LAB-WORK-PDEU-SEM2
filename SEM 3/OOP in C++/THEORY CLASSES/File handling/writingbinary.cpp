@@ -14,5 +14,4 @@ int main()
     struct s s1{{1,2,3,4,5},'a'};
 
     fs.write(( struct s*) &s1, sizeof(s1) );
-    
 }
